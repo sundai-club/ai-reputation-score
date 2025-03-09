@@ -2,8 +2,6 @@
 
 This project involves developing a system for monitoring Radius Agents to improve Ethetium transactions trustworthiness. The system will analyze the behavior of Radius Agents on the Ethetium network and provide insights into the trustworthiness of these agents. This information can be used to optimize the performance of Ethetium transactions, as well as improve customer experience.
 
-https://github.com/sundai-club/ai-reputation-score/blob/main/RepuScore.pdf
-
 ## Installation
 
 1. Clone the repository
