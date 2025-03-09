@@ -19,9 +19,9 @@ def check_connection():
     """Check if we're connected to the network"""
     if w3.is_connected():
         print(f"Connected to Radius Network")
-        print(f"Current block number: {w3.eth.block_number}")
+        print(f"Current block number: {w3.eth.block_number}\n")
     else:
-        print("Failed to connect to Radius Network")
+        print("Failed to connect to Radius Network\n")
 
 def get_balance(address):
     """Get balance of an address"""
@@ -55,12 +55,22 @@ def send_transaction(from_address, from_private_key, to_address, amount_in_ether
         tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
         
         print(f"Transaction successful!")
-        print(f"Transaction hash: {tx_receipt.transactionHash.hex()}")
-        return tx_receipt
+        print(f"Transaction hash: {tx_receipt.transactionHash.hex()}\n")
+        return {
+            'from_address': from_address,
+            'to_address': to_address,
+            'amount': amount_in_ether,
+            **{k: v for k, v in tx_receipt.items()}
+        }
         
     except Exception as e:
-        print(f"Error sending transaction: {str(e)}")
+        print(f"Error sending transaction: {str(e)}\n")
         return None
+    
+def get_deal_details(json_file):
+    with open(json_file) as f:
+        data = json.load(f)
+    return data
 
 if __name__ == "__main__":
     # Check connection
@@ -69,7 +79,7 @@ if __name__ == "__main__":
     # Example: Get balance
     if FROM_ADDRESS_AGENT1:
         balance = get_balance(FROM_ADDRESS_AGENT1)
-        print(f"Balance of {FROM_ADDRESS_AGENT1}: {balance} ETH")
+        print(f"Balance of {FROM_ADDRESS_AGENT1}: {balance} ETH\n")
     
     # Example: To send a transaction
     to_address = TO_ADDRESS_AGENT2
@@ -84,23 +94,6 @@ if __name__ == "__main__":
     print("AFTER TRANSACTION")
     print(f"Balance of {FROM_ADDRESS_AGENT1}: {get_balance(FROM_ADDRESS_AGENT1)} ETH")
     print(f"Balance of {to_address}: {get_balance(to_address)} ETH")
-    print(f"Transaction receipt: {transaction_receipt}")
+    print(f"Transaction receipt:\n{transaction_receipt}\n")
 
-
-
-
-###################################################################
-# url = f"https://rpc.testnet.tryradi.us/{RADIUS_RPC_ENDPOINT_ID}"
-
-# payload = {
-#     "jsonrpc": "2.0",
-#     "method": "eth_blockNumber",
-#     "params": [],
-#     "id": 1
-# }
-
-# headers = {'content-type': 'application/json'}
-
-# response = requests.post(url, data=json.dumps(payload), headers=headers).json()
-
-# print(response)
+    
