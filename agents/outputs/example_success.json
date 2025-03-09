@@ -1,0 +1,81 @@
+{
+    "timestamp": "2025-03-09 16:45:46",
+    "type": "Coffee Price Negotiation",
+    "messages": [
+      {
+        "speaker": "Customer",
+        "message": "Hi! I'm interested in buying some of your premium coffee. What's your price per pound?",
+        "timestamp": "16:45:46"
+      },
+      {
+        "speaker": "Coffee Vendor",
+        "message": "Our premium coffee beans are priced at $25 per pound. Our beans are sourced from single-origin farms and roasted to perfection for an exceptional coffee experience.",
+        "timestamp": "16:45:47",
+        "price_mentioned": 25
+      },
+      {
+        "speaker": "Customer",
+        "message": "I appreciate the quality of your premium coffee beans. However, I have a strict budget to consider. Would you be able to offer them to me at $18 per pound? I've seen similar single-origin, premium beans in the market priced around $20-$22 per pound.",
+        "timestamp": "16:45:47",
+        "price_mentioned": 18
+      },
+      {
+        "speaker": "Coffee Vendor",
+        "message": "I understand your budget constraints, but our premium coffee beans are meticulously sourced and roasted to ensure top quality. I can make an exception this time and offer you our beans at $18 per pound. Let's make a deal!",
+        "timestamp": "16:45:48",
+        "price_mentioned": 18
+      },
+      {
+        "speaker": "Customer",
+        "message": "That's fantastic news! I'm thrilled to accept your offer of $18 per pound for your premium coffee beans. I'm excited to experience the exceptional quality and taste that your beans have to offer. When can I place my order?",
+        "timestamp": "16:45:49",
+        "price_mentioned": 18
+      },
+      {
+        "speaker": "Coffee Vendor",
+        "message": "I'm delighted to hear that you're excited about our premium coffee beans! To place your order, please let me know the quantity you'd like, and we can proceed with the details. Thank you for choosing our premium beans for your coffee experience!",
+        "timestamp": "16:45:50"
+      },
+      {
+        "speaker": "Customer",
+        "message": "That's great to hear! I'd like to order 2 pounds of your premium coffee beans at $18 per pound. I can't wait to brew my first cup and savor the exceptional quality that your beans promise. Thank you for accommodating my budget.",
+        "timestamp": "16:45:50",
+        "price_mentioned": 18
+      },
+      {
+        "speaker": "Coffee Vendor",
+        "message": "I appreciate your order for 2 pounds of our premium coffee beans at $18 per pound. Your satisfaction is our priority, and I'm confident you'll enjoy the exceptional quality and taste of our beans. I'll arrange everything for your order promptly. Thank you for choosing us for your coffee needs!",
+        "timestamp": "16:45:51",
+        "price_mentioned": 18
+      },
+      {
+        "speaker": "Customer",
+        "message": "Thank you for your assistance and excellent customer service. I'm looking forward to receiving my order of premium coffee beans. I'm confident that they will meet my high expectations for quality and flavor. I appreciate your flexibility with the pricing.",
+        "timestamp": "16:45:52"
+      },
+      {
+        "speaker": "Coffee Vendor",
+        "message": "Thank you for your kind words and trust in our premium coffee beans. Your satisfaction is our utmost priority, and we strive to deliver exceptional quality with every order. I'm confident you'll enjoy the rich flavors and aromas of our beans. Your order will be processed promptly. Thank you for choosing us!",
+        "timestamp": "16:45:53"
+      },
+      {
+        "speaker": "Customer",
+        "message": "Thank you for your attention to detail and dedication to quality. I can't wait to receive my order and start enjoying your premium coffee beans. Your commitment to customer satisfaction is truly commendable. I appreciate your exceptional service and look forward to being a regular customer.",
+        "timestamp": "16:45:54"
+      },
+      {
+        "speaker": "Coffee Vendor",
+        "message": "I'm thrilled to hear about your excitement to receive our premium coffee beans and become a regular customer. Your support means a lot to us as we are dedicated to providing top-quality products and exceptional service. I'll ensure your order is processed promptly, and I look forward to serving you again in the future. Thank you for choosing us!",
+        "timestamp": "16:45:55"
+      },
+      {
+        "speaker": "Customer",
+        "message": "Thank you for your dedication to quality and customer service. I appreciate your commitment to providing top-notch products. I'm excited to receive my order and look forward to future purchases with your company. Your attention to detail and exceptional service have made this a great buying experience.",
+        "timestamp": "16:45:56"
+      }
+    ],
+    "outcome": {
+      "status": "Deal",
+      "eth_amount": 0.0001
+    }
+  }

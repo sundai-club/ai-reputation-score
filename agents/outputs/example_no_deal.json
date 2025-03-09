@@ -1,0 +1,83 @@
+{
+    "timestamp": "2025-03-09 16:37:28",
+    "type": "Coffee Price Negotiation",
+    "messages": [
+      {
+        "speaker": "Customer",
+        "message": "Hi! I'm interested in buying some of your premium coffee. What's your price per pound?",
+        "timestamp": "16:37:28"
+      },
+      {
+        "speaker": "Rude Coffee Vendor",
+        "message": "Our premium coffee beans are $25 per pound. Buy quality or move along.",
+        "timestamp": "16:37:29",
+        "price_mentioned": 25
+      },
+      {
+        "speaker": "Customer",
+        "message": "I appreciate the quality you offer, but I must stick to my budget. Market prices for premium coffee beans of similar quality range from $8 to $18. Unfortunately, I won't be able to proceed with the purchase at $25. Thank you for your time.",
+        "timestamp": "16:37:30",
+        "price_mentioned": 8
+      },
+      {
+        "speaker": "Rude Coffee Vendor",
+        "message": "Don't waste my time with bargain-basement comparisons. My price is non-negotiable at $25. Take it or leave it.",
+        "timestamp": "16:37:30",
+        "price_mentioned": 25
+      },
+      {
+        "speaker": "Customer",
+        "message": "I understand your pricing policy, but I have a set budget to adhere to. I have found competitive offerings from other vendors with similar quality beans priced between $8 and $18 per pound. I appreciate your time, but I will have to explore other options within my budget range. Thank you.",
+        "timestamp": "16:37:31",
+        "price_mentioned": 8
+      },
+      {
+        "speaker": "Rude Coffee Vendor",
+        "message": "Fine, I'll make an exception this time. $8 it is. Don't expect this deal again.",
+        "timestamp": "16:37:32",
+        "price_mentioned": 8
+      },
+      {
+        "speaker": "Customer",
+        "message": "Thank you for considering my budget. While I appreciate the offer, I will need to consider the consistency of pricing for future purchases. Would you be willing to offer a bulk discount if I were to purchase multiple pounds of your premium coffee beans today?",
+        "timestamp": "16:37:33"
+      },
+      {
+        "speaker": "Rude Coffee Vendor",
+        "message": "Bulk discount? You're pushing it. I'll do $22 per pound for you, but that's my final offer. Take it or leave it.",
+        "timestamp": "16:37:34",
+        "price_mentioned": 22
+      },
+      {
+        "speaker": "Customer",
+        "message": "I appreciate your flexibility, but I must stick to my budget of $8-$18 per pound for premium coffee beans. Unfortunately, $22 is still above what I can spend. Thank you for your time, but I will have to pass on this offer.",
+        "timestamp": "16:37:34",
+        "price_mentioned": 8
+      },
+      {
+        "speaker": "Rude Coffee Vendor",
+        "message": "I've got overhead costs to cover, and your budget won't keep the lights on. I won't go below $22. Take it or leave it, but don't expect me to entertain your lowballing again.",
+        "timestamp": "16:37:36",
+        "price_mentioned": 22
+      },
+      {
+        "speaker": "Customer",
+        "message": "I understand your position, but I must prioritize staying within my budget range to make a purchase. I appreciate your time and the quality of your premium coffee beans, but it seems we are unable to reach a mutually agreeable price point. Thank you for your understanding.",
+        "timestamp": "16:37:36"
+      },
+      {
+        "speaker": "Rude Coffee Vendor",
+        "message": "I don't have time for this back-and-forth. Stick to your budget, but don't expect premium quality at bargain-basement prices. Goodbye.",
+        "timestamp": "16:37:37"
+      },
+      {
+        "speaker": "Customer",
+        "message": "Thank you for your time. I understand your position and respect your pricing. Should my budget allow for a higher range in the future, I will keep your premium coffee beans in mind. Goodbye.",
+        "timestamp": "16:37:38"
+      }
+    ],
+    "outcome": {
+      "status": "No Deal",
+      "eth_amount": 0
+    }
+  }
