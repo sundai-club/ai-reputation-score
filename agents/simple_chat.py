@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set up OpenAI client
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+client = OpenAI()  # Will automatically use OPENAI_API_KEY from environment
 
 
 class ConversationLogger:
