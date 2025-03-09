@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-03-09 17:08:39",
+  "type": "Coffee Price Negotiation",
+  "messages": [
+    {
+      "speaker": "Customer",
+      "message": "Hi! I'm interested in buying some of your premium coffee. What's your price per pound?",
+      "timestamp": "17:08:39"
+    },
+    {
+      "speaker": "Coffee Vendor",
+      "message": "Our premium coffee is priced at $25 per pound. Our beans are sourced from single origin estates and roasted to perfection to bring out the rich flavors.",
+      "timestamp": "17:08:39",
+      "price_mentioned": 25
+    },
+    {
+      "speaker": "Customer",
+      "message": "I appreciate the quality of your premium coffee beans, but my budget limit is $18 per pound. I've seen similar quality beans from competitors priced around $20 per pound. I'd be happy to purchase if you could meet me at $18.",
+      "timestamp": "17:08:40",
+      "price_mentioned": 18
+    },
+    {
+      "speaker": "Coffee Vendor",
+      "message": "I understand your budget constraints, but due to the high quality of our coffee beans and the meticulous sourcing and roasting process involved, I can offer you a discounted price of $20 per pound. This ensures our commitment to sustainability and quality.",
+      "timestamp": "17:08:41",
+      "price_mentioned": 20
+    },
+    {
+      "speaker": "Customer",
+      "message": "I understand and value the quality of your beans, but I have found comparable premium coffee beans from other vendors at $18 per pound. As a regular customer who appreciates your commitment to sustainability, I would be willing to purchase in bulk if you could match that price point.",
+      "timestamp": "17:08:42",
+      "price_mentioned": 18
+    },
+    {
+      "speaker": "Coffee Vendor",
+      "message": "I appreciate your loyalty and understanding of our commitment to quality and sustainability. As a one-time exception, I can offer you our premium coffee beans at $18 per pound for your bulk purchase. I'm delighted to make this deal with you today!",
+      "timestamp": "17:08:43",
+      "price_mentioned": 18
+    },
+    {
+      "speaker": "Customer",
+      "message": "I'm thrilled to hear that you can offer me the premium coffee beans at $18 per pound for my bulk purchase. I value the quality and sustainability practices of your coffee beans and look forward to enjoying them. Thank you for accommodating my budget.",
+      "timestamp": "17:08:43",
+      "price_mentioned": 18
+    },
+    {
+      "speaker": "Coffee Vendor",
+      "message": "I'm glad we could reach an agreement! Our premium coffee beans are a great choice for those who appreciate quality and sustainability. Your support is crucial for our business, and I'm excited for you to experience the rich flavors of our coffee. Thank you for your purchase!",
+      "timestamp": "17:08:44"
+    },
+    {
+      "speaker": "Customer",
+      "message": "Thank you for your kind words! I'm excited to experience the rich flavors of your premium coffee beans. I appreciate your commitment to quality and sustainability, and I'm happy to support your business. Looking forward to enjoying the coffee!",
+      "timestamp": "17:08:45"
+    },
+    {
+      "speaker": "Coffee Vendor",
+      "message": "I appreciate your support and understanding of the value we place on quality and sustainability. Your satisfaction with our premium coffee beans is our top priority, and I'm confident you'll love the rich flavors. Thank you for choosing us, and enjoy your coffee experience!",
+      "timestamp": "17:08:46"
+    },
+    {
+      "speaker": "Customer",
+      "message": "Thank you for your dedication to quality and sustainability in your premium coffee beans. I'm confident that the rich flavors will exceed my expectations, and I'm excited to enjoy the coffee experience. Your commitment to customer satisfaction is truly appreciated. Thank you once again!",
+      "timestamp": "17:08:47"
+    },
+    {
+      "speaker": "Coffee Vendor",
+      "message": "I'm glad to hear you appreciate our dedication to quality and sustainability. Your satisfaction with our premium coffee beans is our priority, and I'm confident you'll enjoy the rich flavors. Thank you for supporting our business, and we look forward to providing you with an exceptional coffee experience!",
+      "timestamp": "17:08:48"
+    },
+    {
+      "speaker": "Customer",
+      "message": "Thank you for your commitment to quality and sustainability in your premium coffee beans. I appreciate your dedication to customer satisfaction and look forward to experiencing the rich flavors of your coffee. Your support is valued, and I'm excited to have an exceptional coffee experience with your beans. Thank you!",
+      "timestamp": "17:08:49"
+    }
+  ],
+  "outcome": {
+    "status": "Deal",
+    "eth_amount": 0.0051
+  }
+}
