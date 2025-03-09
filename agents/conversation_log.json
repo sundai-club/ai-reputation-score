@@ -1,85 +1,86 @@
 {
-  "timestamp": "2025-03-09 17:07:13",
+  "timestamp": "2025-03-09 17:25:24",
   "type": "Coffee Price Negotiation",
   "messages": [
     {
       "speaker": "Customer",
       "message": "Hi! I'm interested in buying some of your premium coffee. What's your price per pound?",
-      "timestamp": "17:07:13"
+      "timestamp": "17:25:24"
     },
     {
       "speaker": "Coffee Vendor",
-      "message": "Our premium coffee beans are priced at $25 per pound. Our beans are sourced from sustainable farms, roasted to perfection, and offer a rich, complex flavor profile. The quality and craftmanship that goes into each batch justify the price.",
-      "timestamp": "17:07:14",
+      "message": "Our premium coffee beans are priced at $25 per pound. Our beans are sourced from single-origin farms and roasted to perfection to ensure a rich and flavorful experience.",
+      "timestamp": "17:25:25",
       "price_mentioned": 25
     },
     {
       "speaker": "Customer",
-      "message": "I appreciate the quality and craftsmanship that goes into your premium coffee beans. However, I have seen similar high-quality beans from competitors priced around $18 per pound. I would be willing to purchase at that price point.",
-      "timestamp": "17:07:15",
-      "price_mentioned": 18
+      "message": "I appreciate the quality of your premium coffee beans, but my budget is a bit lower. I have seen similar high-quality single-origin coffee beans from competitors priced between $15-$20 per pound. Would you be able to offer your beans at $18 per pound for a loyal customer like me?",
+      "timestamp": "17:25:26",
+      "price_mentioned": 15
     },
     {
       "speaker": "Coffee Vendor",
-      "message": "I understand your position, but our premium coffee beans are priced at $25 per pound due to the exceptional quality, meticulous sourcing, and roasting process involved. We prioritize sustainability and fair compensation for our farmers. I can make an exception this time and offer you our beans for $18 per pound. Let's make a deal!",
-      "timestamp": "17:07:15",
+      "message": "I understand your budget constraints, but our premium coffee beans are meticulously sourced and roasted in small batches to maintain quality. The price of $25 per pound reflects our commitment to excellence and sustainability. I can offer you a discounted price of $22 per pound as a gesture of goodwill.",
+      "timestamp": "17:25:27",
       "price_mentioned": 25
     },
     {
       "speaker": "Customer",
-      "message": "I truly value the sustainability practices and quality standards you uphold in sourcing your coffee beans. While $18 is a fair offer, my budget limit for premium coffee beans is $15 per pound. If you can accommodate this price, I would be more than happy to make a purchase today.",
-      "timestamp": "17:07:16",
+      "message": "I truly value the quality and sustainability of your premium coffee beans. However, considering market prices and competitor offerings, I can only go up to $18 per pound. I believe this price is fair for both your exceptional product and my budget. If you can meet this price, I would be thrilled to make a purchase and become a regular customer.",
+      "timestamp": "17:25:28",
       "price_mentioned": 18
     },
     {
       "speaker": "Coffee Vendor",
-      "message": "I appreciate your understanding of our sustainability practices and quality standards. However, our production costs and commitment to fair trade practices make it challenging to go below $20 per pound. This price ensures we maintain the quality you value and support our business sustainability. If you can consider meeting at $20 per pound, we can move forward with the purchase.",
-      "timestamp": "17:07:17",
+      "message": "I appreciate your understanding of our commitment to quality and sustainability. While I can't meet $18 per pound, I can offer you a special price of $20 per pound for our premium coffee beans. This price allows us to cover our costs and continue supporting the farmers we work with.",
+      "timestamp": "17:25:28",
+      "price_mentioned": 18
+    },
+    {
+      "speaker": "Customer",
+      "message": "Thank you for your continued consideration. I acknowledge the value you place on quality and sustainability in your coffee beans. After careful consideration, I am willing to meet you halfway at $19 per pound, as this aligns with both market prices and the exceptional quality of your product. If you can agree to this price, I would be excited to proceed with the purchase.",
+      "timestamp": "17:25:29",
+      "price_mentioned": 19
+    },
+    {
+      "speaker": "Coffee Vendor",
+      "message": "I appreciate your understanding of our commitment to quality. However, our premium coffee beans are priced at $20 per pound, which is already a discounted rate. This price allows us to maintain our high standards and support sustainable practices. If you're willing to proceed at $20 per pound, I'd be delighted to assist you further.",
+      "timestamp": "17:25:30",
       "price_mentioned": 20
     },
     {
       "speaker": "Customer",
-      "message": "I appreciate your commitment to sustainability and quality. While I understand the value you place on your premium coffee beans at $20 per pound, I have found comparable beans from other reputable vendors priced at $18 per pound. If you can match this price, I would be delighted to purchase from you regularly as a loyal customer.",
-      "timestamp": "17:07:19",
+      "message": "Thank you for your offer, but I must adhere to my budget limit of $18 per pound for premium coffee beans. I have found comparable quality coffee beans from other reputable sources within this price range. If you can reconsider and meet my budget, I would be happy to make a purchase and potentially become a regular customer.",
+      "timestamp": "17:25:31",
+      "price_mentioned": 18
+    },
+    {
+      "speaker": "Coffee Vendor",
+      "message": "I appreciate your interest in our premium coffee beans, but unfortunately, our price is firm at $20 per pound. This price reflects the exceptional quality, sourcing, and roasting process that goes into each batch of beans. We aim to ensure fairness to our customers while also maintaining the sustainability of our business. Thank you for considering us.",
+      "timestamp": "17:25:32",
+      "price_mentioned": 20
+    },
+    {
+      "speaker": "Customer",
+      "message": "I understand and respect your pricing policy for the premium coffee beans. While $20 per pound is above my initial budget, I genuinely appreciate the quality and care that goes into your product. I am willing to make an exception and accept the price of $20 per pound for the exceptional coffee beans you offer. I look forward to purchasing from you and enjoying your premium coffee.",
+      "timestamp": "17:25:33",
       "price_mentioned": 20
     },
     {
       "speaker": "Coffee Vendor",
-      "message": "I'm glad to hear about your interest in becoming a loyal customer. While our premium coffee beans are priced at $25 per pound, I can offer you a special discount, bringing the price down to $20 per pound for you. This ensures you receive top-quality beans while supporting our sustainable practices and business longevity. Let's proceed with the purchase at this price point.",
-      "timestamp": "17:07:20",
-      "price_mentioned": 25
+      "message": "I'm thrilled to hear that you appreciate the quality and care we put into our premium coffee beans. I'm excited to have you as a customer! Let's proceed with the purchase at $20 per pound. Thank you for choosing our premium coffee beans, and I'm confident you'll enjoy every sip.",
+      "timestamp": "17:25:35",
+      "price_mentioned": 20
     },
     {
       "speaker": "Customer",
-      "message": "I appreciate your willingness to offer a discount on your premium coffee beans. However, I must adhere to my budget limit of $18 per pound. Given the market prices and competitor offerings, I believe this is a fair price for premium coffee beans of similar quality. If you can meet this price, I would be thrilled to make a purchase today.",
-      "timestamp": "17:07:21",
-      "price_mentioned": 18
-    },
-    {
-      "speaker": "Coffee Vendor",
-      "message": "I appreciate your understanding of market prices and competitor offerings. While our premium coffee beans are typically priced at $25 per pound, I can make an exception and offer them to you at $18 per pound this time. You'll be getting exceptional quality beans at a great price. Let's proceed with the purchase at $18 per pound.",
-      "timestamp": "17:07:22",
-      "price_mentioned": 25
-    },
-    {
-      "speaker": "Customer",
-      "message": "That's great news! I'm thrilled to accept your offer of $18 per pound for your premium coffee beans. I truly value the quality and sustainability practices you uphold. Let's proceed with the purchase, and I look forward to enjoying your delicious coffee beans.",
-      "timestamp": "17:07:23",
-      "price_mentioned": 18
-    },
-    {
-      "speaker": "Coffee Vendor",
-      "message": "I'm delighted to hear that you're excited about our premium coffee beans! Your commitment to quality and sustainability aligns perfectly with our values. I'll prepare your order promptly, and I'm confident you'll enjoy the rich flavors of our beans. Thank you for choosing us as your coffee provider.",
-      "timestamp": "17:07:23"
-    },
-    {
-      "speaker": "Customer",
-      "message": "Thank you for your assistance and understanding of my budget constraints. I appreciate your commitment to quality and sustainability. I look forward to receiving my order and enjoying the rich flavors of your premium coffee beans. Thank you for accommodating my price range.",
-      "timestamp": "17:07:24"
+      "message": "I'm delighted to hear that we could come to an agreement, and I'm equally excited to try your premium coffee beans. Thank you for accommodating my budget. I look forward to savoring the rich flavors and quality of your coffee.",
+      "timestamp": "17:25:36"
     }
   ],
   "outcome": {
     "status": "Deal",
-    "eth_amount": 0.0051
+    "eth_amount": 0.0057
   }
 }

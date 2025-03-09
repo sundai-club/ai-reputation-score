@@ -283,7 +283,8 @@ def main():
     )
     
     # Create a logger
-    logger = ConversationLogger("conversation_log.json")
+    log_path = os.path.join(os.path.dirname(__file__), "conversation_log.json")
+    logger = ConversationLogger(log_path)
     
     # Run the negotiation
     run_conversation(customer, vendor, num_turns=6, logger=logger)
