@@ -2,6 +2,7 @@ import json
 from dotenv import load_dotenv
 import os
 from web3 import Web3
+import time
 
 load_dotenv()
 
@@ -32,6 +33,7 @@ def get_balance(address):
 def send_transaction(from_address, from_private_key, to_address, amount_in_ether):
     """Send a transaction on the Radius network"""
     try:
+        start_time = time.time()
         # Convert ether to wei
         amount_in_wei = w3.to_wei(amount_in_ether, 'ether')
         
@@ -53,8 +55,9 @@ def send_transaction(from_address, from_private_key, to_address, amount_in_ether
         tx_hash = w3.eth.send_raw_transaction(signed_txn.raw_transaction)
         # Wait for transaction receipt
         tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
+        end_time = time.time()
         
-        print(f"Transaction successful!")
+        print(f"Transaction successful in {end_time - start_time} seconds!")
         print(f"Transaction hash: {tx_receipt.transactionHash.hex()}\n")
         return {
             'from_address': from_address,
